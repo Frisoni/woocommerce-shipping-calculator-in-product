@@ -38,7 +38,7 @@ if ( ! class_exists( __CLASS__ ) ) {
 
 		public function __construct() {
 
-			add_action( 'admin_notices', array( __CLASS__,'plugin_donate') );
+			//add_action( 'admin_notices', array( __CLASS__,'plugin_donate') );
 
 			add_action('wp', array($this,'init'));
 				
