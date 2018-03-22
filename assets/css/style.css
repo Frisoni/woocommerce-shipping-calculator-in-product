@@ -3,6 +3,10 @@
   float: left;
 }
 
+.woocommerce #wscp-form {
+  text-align: center;
+}
+
 .woocommerce #shipping-calc #wscp-postcode.text {
   width: calc(78% - 180px);
   height: 40px;
@@ -22,6 +26,7 @@
   border-radius: 0;
   -webkit-border-radius: 0;
   vertical-align: middle;
+  margin-bottom: 0;
 }
 
 .woocommerce #shipping-calc #wscp-button {
